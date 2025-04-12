@@ -85,6 +85,7 @@ public class EmpDeptSalgradeTests
     // 7. SelectMany (simulate flattening)
     // SQL: SELECT EName, Comm FROM Emp WHERE Comm IS NOT NULL;
     [Fact]
+    
     public void ShouldReturnEmployeesWithCommission()
     {
         var emps = Database.GetEmps();
